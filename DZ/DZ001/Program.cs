@@ -7,11 +7,15 @@ Console.WriteLine("Введите число");
 Number2 = Convert.ToInt32(Console.ReadLine());
 if(Number1 < Number2) 
 {
-    Console.Write("Максимальное число - ");
+    Console.Write("Большее число - ");
     Console.WriteLine(Number2);
+    Console.Write("Меньшее число - ");
+    Console.WriteLine(Number1);
 }
 else
 {
-Console.Write("Максимальное число - ");
+Console.Write("Большее число - ");
 Console.WriteLine(Number1);
+Console.Write("Меньшее число - ");
+Console.WriteLine(Number2);
 }
